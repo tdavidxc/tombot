@@ -11,3 +11,11 @@ Structure
 * `memory/` → recall system (short + long term)
 * `utils/` → humanization helpers
 * `data/` → **never committed chat logs**
+
+To run:
+venv\Scripts\Activate.ps1
+
+Checks:
+where python
+
+ollama --version
