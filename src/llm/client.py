@@ -15,9 +15,9 @@ class LLMClient(ABC):
 
 # A mock implementation of LLMClient for testing purposes
 class MockLLMClient(LLMClient):
-    
+
     def generate(self, prompt: str) -> str:
         return (
-            "lol yeah that makes sense\n"
-            "(mock response for now)"
+            "lol yeah sure "
+            "that makes sense ig"
         )
