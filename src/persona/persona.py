@@ -75,3 +75,7 @@ class PersonaInfoGetter:
     @staticmethod
     def get_bot_name() -> str:
         return bot_name
+    
+    @staticmethod
+    def get_user_name() -> str:
+        return "Sara"
